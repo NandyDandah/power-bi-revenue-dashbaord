@@ -8,7 +8,7 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["public vw_customer_retention","public customers","public opportunities","public products","public orders","public sales_activities","public sales_reps","public vw_rep_performance","public vw_kpi_summary","public vw_revenue_trends","public vw_sales_funnel","Revenue_measures","public vw_customer_retention (2)","public vw_kpi_summary (2)","public vw_rep_performance (2)","public vw_revenue_trends (2)","public vw_sales_funnel (2)","public customers (2)","public opportunities (2)","public orders (2)","public products (2)","public sales_activities (2)","public sales_reps (2)"]
+annotation PBI_QueryOrder = ["public vw_customer_retention","public customers","public opportunities","public products","public orders","public sales_activities","public sales_reps","public vw_rep_performance","public vw_kpi_summary","public vw_revenue_trends","public vw_sales_funnel","Revenue_measures"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
@@ -31,23 +31,6 @@ ref table LocalDateTable_04c5ade2-4776-4331-b146-dabacc000f47
 ref table 'public vw_sales_funnel'
 ref table Revenue_measures
 ref table Deal_Status
-ref table 'public vw_customer_retention (2)'
-ref table LocalDateTable_975a9e56-1bd1-4a0c-8f11-4ad02d08e521
-ref table 'public vw_kpi_summary (2)'
-ref table 'public vw_rep_performance (2)'
-ref table 'public vw_revenue_trends (2)'
-ref table LocalDateTable_33b18ff6-c0b5-4d76-955d-2331f5e47534
-ref table 'public vw_sales_funnel (2)'
-ref table 'public customers (2)'
-ref table LocalDateTable_9d0b1d08-4497-46ec-83f0-db8a585b9c7d
-ref table 'public opportunities (2)'
-ref table LocalDateTable_135d3afe-782b-4321-9d37-64c54b4ce323
-ref table 'public orders (2)'
-ref table LocalDateTable_05516467-77a6-4c42-87d1-6f812181b2ce
-ref table 'public products (2)'
-ref table 'public sales_activities (2)'
-ref table LocalDateTable_7780a40f-fe8d-497d-b582-505c76f1c255
-ref table 'public sales_reps (2)'
 
 ref cultureInfo en-US
 
