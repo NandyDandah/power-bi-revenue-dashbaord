@@ -1,11 +1,10 @@
 # Revenue Performance Dashboard
 
-Professional Power BI revenue analytics project built to show executive reporting, sales funnel analysis, customer retention, and sales representative performance. The project is structured as both a PBIX deliverable and an editable PBIP source project, making it easier to review the report, inspect the semantic model, and evaluate the DAX/report-building work.
+Professional Power BI revenue analytics project built to show executive reporting, sales funnel analysis, customer retention, and sales representative performance. The project is structured as a publish-ready PBIP source project, making it easy to review the report, inspect the semantic model, and evaluate the DAX/report-building work.
 
 ## Project Contents
 
 - `Power BI Project.pbip` - publish-ready editable Power BI Project file.
-- `Revenue Performance Dashboard.pbix` - packaged dashboard copy.
 - `Power BI Project.Report/` - report page and visual definitions.
 - `Power BI Project.SemanticModel/` - semantic model, relationships, tables, and DAX measures.
 - `SQL/` - PostgreSQL setup scripts for tables, sample data, and reporting views.
@@ -52,7 +51,7 @@ Professional Power BI revenue analytics project built to show executive reportin
 
 1. Open `Power BI Project.pbip` in Power BI Desktop for the publish-ready report project.
 2. Review the four report pages and the `Revenue_measures` table.
-3. Publish from the PBIP in Power BI Desktop, or use `Revenue Performance Dashboard.pbix` as the packaged dashboard copy.
+3. Publish directly from the PBIP in Power BI Desktop.
 4. Read `PROJECT_SKILLS.md` for a concise portfolio explanation.
 
 ## PostgreSQL Setup
